@@ -16,7 +16,7 @@ export default function LaunchItem({
     >
       <div className="card-header">
         <h4 className="card-title">
-          {flight_number}:Mission:
+          Mission:{" "}
           <span
             style={{
               color: launch_success ? "#56CC9D" : "#FF7851",

@@ -18,7 +18,12 @@ export default class App extends Component {
         <Router>
           <div className="App">
             <div className="container">
-              <h1 className="logo">SpaceX</h1>
+              <h1
+                className="logo"
+                style={{ color: "#1e999e", fontSize: "4rem" }}
+              >
+                SpaceX
+              </h1>
               <Route exact path="/" component={Launches} />
               <Route exact path="/launch/:flight_number" component={Launch} />
             </div>

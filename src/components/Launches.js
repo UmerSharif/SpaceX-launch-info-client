@@ -20,8 +20,10 @@ export default class Launches extends Component {
     return (
       <Fragment>
         <div className="jumbotron">
-          <h1 className="display-5">Launch</h1>
-          <p className="lead">This is SpaceX launch information panel.</p>
+          <h1 style={{ color: "#1e999e", fontSize: "2rem" }}>
+            Launch Information
+          </h1>
+          <p className="lead">This is SpaceX launch information panel</p>
           <Indicator />
           <hr className="my-4" />
           <Query query={LAUNCHES_QUERY}>
